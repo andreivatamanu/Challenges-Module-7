@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Challenges Module7</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
+    <string name="battery_level">Battery Level</string>
+    <string name="challenge_1">Challenge 1</string>
+    <string name="challenge_3">Challenge 3</string>
+    <string name="challenge_4">Challenge 4</string>
+    <string name="challenge_5">Challenge 5</string>
+    <string name="reset">RESET</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="header_image">Header Image</string>
+    <string name="best_hobby_travel">Best Hobby Travel</string>
+    <string name="the_favourite_sesion_for_travel">The favourite sesion for travel</string>
+    <string name="summer">Summer</string>
+    <string name="i_travel_with_my_wife_and_my_puppy">I travel with my wife and my puppy</string>
+    <string name="transport_type">Transport type</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="Magic">Magic Travel</string>
+    <string name="camera">Camera Challenge</string>
+</resources>

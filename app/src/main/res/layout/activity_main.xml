@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_8_dp"
+        android:onClick="onClickChallenge1"
+        android:text="@string/challenge_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_8_dp"
+        android:onClick="onClickChallenge2"
+        android:text="Challenge 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_8_dp"
+        android:onClick="onClickChallenge3"
+        android:text="@string/challenge_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_8_dp"
+        android:onClick="onClickChallenge4"
+        android:text="@string/challenge_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_8_dp"
+        android:onClick="onClickChallenge5"
+        android:text="@string/challenge_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_8_dp"
+        android:onClick="onClickChallenge6"
+        android:text="Challenge 6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+</android.support.constraint.ConstraintLayout>

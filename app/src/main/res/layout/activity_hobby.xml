@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hobby.HobbyActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView_hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8_dp"
+        app:cardCornerRadius="@dimen/space_16_dp"
+        app:cardElevation="@dimen/space_4_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView_title_hobby"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/color_transparent"
+                android:elevation="1dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/best_hobby_travel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/color_white"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView_header_hobby"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView_header_hobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/header_image"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/travel_cover" />
+
+            <TextView
+                android:id="@+id/textView_fav_season"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_8_dp"
+                android:layout_marginTop="@dimen/space_8_dp"
+                android:text="@string/the_favourite_sesion_for_travel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textSize="@dimen/space_14_dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_title_hobby" />
+
+            <TextView
+                android:id="@+id/textView_hobby_summer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_8_dp"
+                android:text="@string/summer"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/color_yellow"
+                android:textSize="@dimen/space_8_dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/textView_fav_season"
+                app:layout_constraintTop_toBottomOf="@+id/textView_title_hobby" />
+
+            <TextView
+                android:id="@+id/textView_hobby_description"
+                android:layout_width="@dimen/space_0_dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_8_dp"
+                android:layout_marginTop="@dimen/space_8_dp"
+                android:layout_marginBottom="@dimen/space_8_dp"
+                android:text="@string/i_travel_with_my_wife_and_my_puppy"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_fav_season" />
+
+            <ImageView
+                android:id="@+id/imageView_hobby_transport"
+                android:layout_width="@dimen/space_0_dp"
+                android:layout_height="@dimen/space_0_dp"
+                android:layout_marginStart="@dimen/space_8_dp"
+                android:layout_marginEnd="@dimen/space_8_dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/transport_type"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="@+id/textView_hobby_description"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView_hobby_summer"
+                app:layout_constraintTop_toTopOf="@+id/textView_hobby_summer"
+                app:srcCompat="@drawable/ic_dog_driving_car" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

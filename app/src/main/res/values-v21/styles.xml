@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalendarTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">#ff6d00</item>
+        <item name="colorControlActivated">#33691e</item>
+        <item name="android:selectableItemBackgroundBorderless">@color/darkBlue</item>
+        <item name="colorControlHighlight">#d50000</item>
+        <item name="colorPrimary">@color/color_white</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>
